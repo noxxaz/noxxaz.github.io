@@ -1,5 +1,7 @@
 
 body {
+  background-image: url(bg_zach.tokyo.png);
+  background-repeat: no-repeat;
   color: white;
 }
 a:link {
