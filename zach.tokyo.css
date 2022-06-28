@@ -1,28 +1,36 @@
 
 body {
-  background-color: #e50209;
-  background-image: url(images/bg_zach.tokyo.png);
-  background-repeat: no-repeat;
-  color: white;
+  background-color: #FFF;
+  background-image: url(images/washi_paper_bg.jpg);
+  background-repeat: repeat;
+  color: #777;
   font-family: monospace;
 }
+div.headline
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+#name {
+  color : orange;
+}
 a:link {
-  color: red;
+  color: #888;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: red;
+  color: #888;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: #888;
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: red;
+  color: #888;
   background-color: transparent;
   text-decoration: underline;
 }
