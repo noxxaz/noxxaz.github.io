@@ -52,10 +52,13 @@ span.black {
   color : #BBB;
   font-weight: regular;
 }
+ul {
+  padding-bottom: 25px;
+}
 li {
-
   list-style-type: '*';
   padding-inline-start: 1ch;
+  margin: 5px 0
 }
 a:link {
   color: #F70;
@@ -77,9 +80,12 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-div.footer {
-  padding-top: 25px;
+nav.footer {
+  padding-bottom: 25px;
   width: auto;
   text-align: center;
   margin: auto;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
 }
