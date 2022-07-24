@@ -1,9 +1,33 @@
+/*--- Berkeley Mono font used under license ---------------------------------*/
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: normal;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Regular'), url(./BerkeleyMono-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold'), url(./BerkeleyMono-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: italic;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Italic'), url(./BerkeleyMono-Italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold-Italic'), url(./BerkeleyMono-BoldItalic.woff2) format('woff2');
+}
+/*---------------------------------------------------------------------------*/
 
 body {
-  background-color: #FFF;
-  background-image: linear-gradient(to bottom right, #FFF, #FCA);
+  background-color: #222;
+  background-image: linear-gradient(to bottom right, #222, #111);
   color: #777;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:'Berkeley-Mono';
   font-size: medium;
   height: 100vh;
 }
@@ -11,7 +35,7 @@ div.headline
 {
   padding-top: 25px;
   padding-left: 25px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Berkeley-Mono';
   font-size: xxx-large;
 }
 div.main {
@@ -24,7 +48,7 @@ span.altcolor {
   font-weight: regular;
 }
 span.black {
-  color : #555;
+  color : #AAA;
   font-weight: bold;
 }
 a:link {
