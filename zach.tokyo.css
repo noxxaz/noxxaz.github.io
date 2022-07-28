@@ -29,8 +29,9 @@ body {
   color: #777;
   font-family:'Berkeley-Mono';
   font-size: medium;
-  height: 100vh;
+
 }
+
 div.headline
 {
   padding-top: 40px;
@@ -80,12 +81,15 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-nav.footer {
-  padding-bottom: 25px;
+footer.footer {
+  left: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
   width: auto;
   text-align: center;
   margin: auto;
   position: absolute;
   bottom: 0;
-  width: 90%;
+  width: 100%;
+  background: rgba(00, 00, 00, .65);
 }
