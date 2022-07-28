@@ -29,7 +29,7 @@ body {
   color: #777;
   font-family:'Berkeley-Mono';
   font-size: medium;
-
+  padding-bottom: 100px;
 }
 
 div.headline
@@ -59,7 +59,7 @@ ul {
 li {
   list-style-type: '*';
   padding-inline-start: 1ch;
-  margin: 5px 0
+  margin: 5px 0;
 }
 a:link {
   color: #F70;
@@ -85,10 +85,9 @@ footer.footer {
   left: 0;
   padding-bottom: 15px;
   padding-top: 15px;
-  width: auto;
   text-align: center;
   margin: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background: rgba(00, 00, 00, .65);
