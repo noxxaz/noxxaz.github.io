@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--- End reset css ---*/
+
+.top_nav {
+  height: 50px;
+  width: 100%;
+  background-color: #2C862C;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.nav_link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding-top: 14px;
+  font-weight: regular;
+}
+a:link {
+  color: #FFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #FFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #c7e58a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.about_anchor:hover {
+  color: #2C862C;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.contact_anchor:hover {
+  color: #FFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+.main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  align-self: center;
+  margin-bottom: 10px;
+}
+.splash {
+  align-self: center;
+  width: 1000px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-image: url(./images/splash_image.png);
+  background-repeat: no-repeat;
+}
+.text_box {
+  color: #FFF;
+  width: 450px;
+  height: 400px;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: regular;
+  line-height: 46px;
+}
+.about {
+  margin-top: 75px;
+  background-color: #CCC;
+  align-content: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.about_container {
+  width: 800px;
+  margin: auto;
+}
+.about_title {
+  padding-bottom: 25px;
+  color: #2C862C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+}
+.about_text {
+  color: #666;
+  margin-bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+.contact {
+  background-color: #2C862C;
+  align-content: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contact_container {
+  width: 800px;
+  margin: auto;
+}
+.contact_title {
+  padding-bottom: 25px;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+}
+.contact_text {
+  color: #FFF;
+  margin-bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+footer {
+  text-align: center;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
