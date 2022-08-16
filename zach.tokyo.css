@@ -27,7 +27,7 @@ body {
   background-color: #222;
   background-image: linear-gradient(to bottom right, #333, #111);
   color: #777;
-  font-family:'Berkeley-Mono';
+  font-family: 'Berkeley-Mono';
   font-size: medium;
   padding-bottom: 100px;
 }
@@ -50,11 +50,11 @@ span.altcolor {
 }
 
 span.list_header {
-  color :#BBB;
+  color: #BBB;
   font-weight: regular;
 }
 span.highlight {
-  color :#BBB;
+  color: #BBB;
 }
 ul {
   padding-bottom: 25px;
