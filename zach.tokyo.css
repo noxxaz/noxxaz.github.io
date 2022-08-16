@@ -50,12 +50,11 @@ span.altcolor {
 }
 
 span.list_header {
-  color : #BBB;
+  color :#BBB;
   font-weight: regular;
 }
 span.highlight {
-  color : #BBB;
-  font-weight: regular;
+  color :#BBB;
 }
 ul {
   padding-bottom: 25px;
