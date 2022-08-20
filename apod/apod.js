@@ -17,14 +17,17 @@ async function showPicture() {
     .then((data) => {
       console.log(data);
       
-      // Image and HD URL
-      const container = document.querySelector("#apod");
-      const link = document.createElement("a");
-      link.href = data.hdurl;
-      const image = document.createElement("img");
-      image.className = "img_apod"
-      image.src = data.url;
-      link.append(image)
+      // Date
+      const pDate = document.createElement("p");
+      pDate.className = "metadata";
+      const lblDate = document.createElement("span");
+      lblDate.className = "label";
+      lblDate.innerText = "Date: "
+      const txtDate = document.createElement("span");
+      txtDate.className = "data";
+      txtDate.innerText = data.date;
+      pDate.append(lblDate);
+      pDate.append(txtDate);
 
       // Title
       const pTitle = document.createElement("p");
@@ -37,18 +40,6 @@ async function showPicture() {
       txtTitle.innerText = data.title;
       pTitle.append(lblTitle);
       pTitle.append(txtTitle);
-
-      // Date
-      const pDate = document.createElement("p");
-      pDate.className = "metadata";
-      const lblDate = document.createElement("span");
-      lblDate.className = "label";
-      lblDate.innerText = "Date: "
-      const txtDate = document.createElement("span");
-      txtDate.className = "data";
-      txtDate.innerText = data.date;
-      pDate.append(lblDate);
-      pDate.append(txtDate);
 
       // Photographer
       const pPhotog = document.createElement("p");
@@ -74,6 +65,15 @@ async function showPicture() {
       pDesc.append(lblDesc);
       pDesc.append(txtDesc);
 
+      // Image and HD URL
+      const container = document.querySelector("#apod");
+      const link = document.createElement("a");
+      link.href = data.hdurl;
+      const image = document.createElement("img");
+      image.className = "img_apod"
+      image.src = data.url;
+      link.append(image)
+      
       container.append(pDate);
       container.append(pTitle);
       container.append(pPhotog);

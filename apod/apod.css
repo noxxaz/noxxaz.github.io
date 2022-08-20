@@ -68,7 +68,7 @@ body {
   color: #555;
   padding-top: 25px;
   padding-left: 25px;
-  height: 100vh;
+  min-height: 100vh;
 }
 header {
   display: flex;
@@ -90,6 +90,7 @@ span.sub_headline {
   font-size: 24px;
 }
 div.apod {
+  padding-top: 25px;
   height: auto;
 }
 img.img_apod {
@@ -99,7 +100,7 @@ img.img_apod {
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
 }
 p.metadata {
-  padding-top: 25px;
+  padding-top: 10px;
   padding-right: 50px;
   line-height: 125%;
 }
