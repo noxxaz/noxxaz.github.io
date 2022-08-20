@@ -10,17 +10,6 @@
   font-style: normal;
   src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold'), url(../BerkeleyMono-Bold.woff2) format('woff2');
 }
-@font-face {
-  font-family: 'Berkeley-Mono';
-  font-style: italic;
-  src: local('Berkeley-Mono'), local('Berkeley-Mono-Italic'), url(../BerkeleyMono-Italic.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Berkeley-Mono';
-  font-style: italic;
-  font-weight: bold;
-  src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold-Italic'), url(../BerkeleyMono-BoldItalic.woff2) format('woff2');
-}
 /*---------------------------------------------------------------------------*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -110,7 +99,7 @@ img.img_apod {
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
 }
 p.metadata {
-  padding-top: 10px;
+  padding-top: 25px;
   padding-right: 50px;
   line-height: 125%;
 }
