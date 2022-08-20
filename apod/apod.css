@@ -1,0 +1,128 @@
+/*--- Berkeley Mono font used under license ---------------------------------*/
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: normal;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Regular'), url(../BerkeleyMono-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold'), url(../BerkeleyMono-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: italic;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Italic'), url(../BerkeleyMono-Italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Berkeley-Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Berkeley-Mono'), local('Berkeley-Mono-Bold-Italic'), url(../BerkeleyMono-BoldItalic.woff2) format('woff2');
+}
+/*---------------------------------------------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-- END RESET CSS ----------------------------------------------------------*/
+
+body {
+  background-color: #FFF;
+  background-image: linear-gradient(to bottom right, #FFF, #CCC);
+  font-family: Berkeley-Mono;
+  color: #555;
+  padding-top: 25px;
+  padding-left: 25px;
+  height: 100vh;
+}
+header {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+div.logo {
+  padding-right: 25px;
+}
+div.headline {
+  padding-top: 10px;
+}
+span.headline {
+  font-size: 54px;
+  font-weight: bold;
+}
+span.sub_headline {
+  font-size: 24px;
+}
+div.apod {
+  height: auto;
+}
+img.img_apod {
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+p.metadata {
+  padding-top: 10px;
+  padding-right: 50px;
+  line-height: 125%;
+}
+span.label {
+  font-weight: bold;
+  color: #111
+}
+span.data {
+  font-weight: regular;
+  color: #666;
+}
+.img_apod {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
