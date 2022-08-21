@@ -15,6 +15,7 @@ async function showPicture() {
       return data.json();
     })
     .then((data) => {
+      console.log(data);
       // Display selected date on page
       let selDate = new Date(data.date);
       const displayDate = document.querySelector('#date');
@@ -22,17 +23,17 @@ async function showPicture() {
 
       // Build navigator links
       // Prev
-      let prevDate = new Date();
-      prevDate.setDate(selDate.getDate() - 1);
+      let prevDate = new Date(data.date);
+      prevDate.setDate(prevDate.getDate() - 1);
       const prevLink = document.querySelector('#prev');
       prevLink.href = "index.html?date=" + prevDate.toISOString().split('T')[0];
 
       // Next
       const nextLink = document.querySelector('#next');
-      if (selDate === new Date) {
+      if (selDate === new Date()) {
         nextLink.href = "#";
       } else {
-        let nextDate = new Date();
+        let nextDate = new Date(data.date);
         nextDate.setDate(selDate.getDate() + 1);
         nextLink.href = "index.html?date=" + nextDate.toISOString().split('T')[0];
       }
