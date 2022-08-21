@@ -87,7 +87,9 @@ span.headline {
   font-weight: bold;
 }
 span.sub_headline {
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 100px;
 }
 div.apod {
   padding-top: 25px;
