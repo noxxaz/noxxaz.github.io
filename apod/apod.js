@@ -87,20 +87,28 @@ async function showPicture() {
       pDesc.append(lblDesc);
       pDesc.append(txtDesc);
 
-      // Image and HD URL
+      // Video or Image + HD URL
       const container = document.querySelector("#apod");
-      const link = document.createElement("a");
-      link.href = data.hdurl;
-      const image = document.createElement("img");
-      image.className = "img_apod"
-      image.src = data.url;
-      link.append(image)
+      let media;
+      if (data.media_type === "video") {
+        media = document.createElement("iframe");
+        media.width = 640;
+        media.height = 360;
+        media.src = data.url;
+      } else {
+        media = document.createElement("a")
+        media.href = data.hdurl;
+        const image = document.createElement("img");
+        image.className = "img_apod"
+        image.src = data.url;
+        media.append(image)
+      }
       
       container.append(pDate);
       container.append(pTitle);
       container.append(pPhotog);
       container.append(pDesc);
-      container.append(link);   
+      container.append(media);   
 
     })
     .catch(err => console.error(err));

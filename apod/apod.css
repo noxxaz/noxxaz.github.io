@@ -100,6 +100,16 @@ img.img_apod {
   max-height: 60%;
   border-radius: 10px;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+iframe {
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 p.metadata {
   padding-top: 10px;
@@ -114,7 +124,4 @@ span.data {
   font-weight: regular;
   color: #666;
 }
-.img_apod {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
+
