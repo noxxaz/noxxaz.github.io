@@ -44,7 +44,7 @@ async function showPicture() {
       pDate.className = "metadata";
       const lblDate = document.createElement("span");
       lblDate.className = "label";
-      lblDate.innerText = "Date: "
+      lblDate.innerText = "Date: ";
       const txtDate = document.createElement("span");
       txtDate.className = "data";
       txtDate.innerText = data.date;
