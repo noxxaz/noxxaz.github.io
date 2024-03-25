@@ -46,7 +46,7 @@ div.main {
   margin: auto;
 }
 span.altcolor {
-  color: #F70;
+  color: #46F242;
   font-weight: bold;
 }
 span.list_header {
@@ -65,22 +65,22 @@ li {
   margin: 5px 0;
 }
 a:link {
-  color: #F70;
+  color: #46F242;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #F70;
+  color: #46F242;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #F70;
+  color: #46F242;
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: turquoise;
+  color: rgb(255, 251, 165);
   background-color: transparent;
   text-decoration: underline;
 }
