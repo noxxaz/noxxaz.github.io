@@ -26,7 +26,7 @@
 body {
   background-color: #222;
   background-image: linear-gradient(to bottom right, #333, #111);
-  color: #777;
+  color: #888;
   font-family: 'Berkeley-Mono';
   font-size: medium;
   padding-bottom: 100px;
@@ -80,7 +80,7 @@ a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: rgb(255, 251, 165);
+  color: rgb(253, 240, 0);
   background-color: transparent;
   text-decoration: underline;
 }
